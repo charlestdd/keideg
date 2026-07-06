@@ -11,7 +11,7 @@ body {
   align-items: center;
   background: black;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 30px; /* was 10px 20px */
 }
 
 .navbar .logo {
@@ -20,9 +20,9 @@ body {
 
 .nav-links a {
   color: white;
-  margin-left: 15px;
+  gap: 20px; /* Adjust to taste */
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* HERO */
