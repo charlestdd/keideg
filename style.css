@@ -20,9 +20,9 @@ body {
 
 .nav-links a {
   color: white;
-  gap: 20px; /* Adjust to taste */
+  gap: 35px; /* Adjust to taste */
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* HERO */
