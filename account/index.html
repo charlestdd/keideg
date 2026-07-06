@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Keideg Account</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">Keideg</div>
+
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/account">Account</a>
+      <a href="/tos">Terms Of Service</a>
+      <a href="/support">Support</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-box">
+      Keideg Account
+    </div>
+  </div>
+
+  <!-- LOGIN SECTION -->
+  <div class="container">
+
+    <!-- LEFT LOGO -->
+    <div class="left">
+      <img src="https://i.imgur.com/hqu0ldP.png" alt="logo">
+      <p class="footer">Keideg, 2026</p>
+    </div>
+
+    <!-- RIGHT FORM -->
+    <div class="right">
+      <h2>Welcome</h2>
+      <p>Login or create your account</p>
+
+      <input id="username" placeholder="Username" />
+      <input id="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+
+      <div class="buttons">
+        <button onclick="signup()">Sign Up</button>
+        <button onclick="login()">Login</button>
+      </div>
+
+      <button class="discord" onclick="discordLogin()">
+        Log in with Discord
+      </button>
+    </div>
+
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
